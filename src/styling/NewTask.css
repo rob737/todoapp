@@ -1,0 +1,32 @@
+.notes__badge {
+    position: relative;
+    left: 222px;
+    bottom: 36px;
+    background: tomato;
+    width: 16%;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  
+  .notes__badge:hover {
+    cursor: pointer;
+    background-color: rgb(214, 195, 24);
+    
+  }
+
+  .notes__badge:disabled,
+  .notes__badge[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+  .todo_creatediv_inner.invalid input {
+    background-color: tomato;
+  }
+
+  

@@ -1,0 +1,26 @@
+#login__notes{
+    height: 30px;
+    width: 40%;
+    border-radius: 8px;
+    position: relative;
+    left: 330px;
+  }
+
+#login__button {
+    position: relative;
+    left: 515px;
+    width: 50px;
+    height: 30px;
+    border-radius: 8px;
+    top: 10px;
+}  
+ 
+ label {
+    position: relative;
+    left: 510px;   
+}
+
+#login__button:hover {
+    cursor: pointer;
+    background-color: brown; 
+}

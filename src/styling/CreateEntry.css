@@ -1,0 +1,61 @@
+body{
+  background-color: rgb(75, 75, 75);
+  height: 100vh;
+  width: 100vw;
+}
+
+.todo_creatediv {
+position: relative;
+top: 10vh;  
+text-align: center;
+background: rgb(185, 187, 183);
+width: 50%;
+margin: 0 350px;
+}
+
+
+
+.todo_creatediv_inner button {
+    text-align: center;
+    color: black;
+    border-radius: 8px;
+    padding:0.5em 3em;
+    font: inherit;
+    width: 50%;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.todo_creatediv__badge {
+  position: relative;
+  left: 440px;
+  bottom: 44px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  font-weight: bold;
+  width: 17%;
+  height: 85%;
+  background: tomato; 
+}
+
+.todo_creatediv_inner button:hover{
+  background-color: rgb(214, 195, 24);
+}
+
+.todo_creatediv__badge:hover {
+  background-color: rgb(214, 195, 24);
+  cursor: pointer;
+}
+
+
+.todo_creatediv_inner {
+  padding: 4px 0;
+}
+
+#todo_creatediv__notes{
+  height: 30px;
+  width: 48%;
+  border-radius: 8px;
+}
+
